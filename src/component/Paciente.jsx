@@ -11,20 +11,20 @@ const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
   return (
     <div>
       <div className="mx-5 my-7  bg-white shadow-md px-2 py-2 rounded-xl ">
-            <p className="font-bold text-xl m-5 text-gray-700 uppercase">Nombre: {""}
-                <span className="font-bold normal-case ">{nombre}</span>
+            <p className="font-bold m-5 text-gray-700 uppercase">Nombre: {""}
+                <span className="font-normal normal-case">{nombre}</span>
             </p>
-            <p className="font-bold text-xl m-5 text-gray-700 uppercase">Propietario: {""}
-                <span className="font-bold normal-case">{propietario}</span>
+            <p className="font-bold m-5 text-gray-700 uppercase">Propietario: {""}
+                <span className="font-normal normal-case">{propietario}</span>
             </p>
-            <p className="font-bold text-xl m-5 text-gray-700 uppercase">Email: {""}
-                <span className="font-bold normal-case">{email}</span>
+            <p className="font-bold m-5 text-gray-700 uppercase">Email: {""}
+                <span className="font-normal normal-case">{email}</span>
             </p>
-            <p className="font-bold  text-xl m-5 text-gray-700 uppercase">Fecha de Alta: {""}
-                <span className="font-bold normal-case">{alta}</span>
+            <p className="font-bold m-5 text-gray-700 uppercase">Fecha de Alta: {""}
+                <span className="font-normal normal-case">{alta}</span>
             </p>
-            <p className="font-bold text-xl m-5 text-gray-700 uppercase">Sintomas: {""}
-                <span className="font-bold normal-case">{sintomas}</span>
+            <p className="font-bold m-5 text-gray-700 uppercase">Sintomas: {""}
+                <span className="font-normal normal-case">{sintomas}</span>
             </p>
             <div className="flex">
                 <button type="button"   
